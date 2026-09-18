@@ -1,32 +1,33 @@
-// STEP 1: Print text to the browser console is string ""
+console.log("Welcome!");
 
-console.log("Mo");
+const name = "Erno";
+const favoriteAnimal = "Rabbit";
 
-// STEP 2: Variables
+console.log("My name is " + name + " and my favorite animal is the " + favoriteAnimal + ".");
 
-// Store text values in variables
+console.log(name);
+console.log(favoriteAnimal);
 
-const userName = "Ernest";
-const favoriteAnimal = "Blue Elephant";
+const visitorName = prompt("What is your name?");
 
-// Print the variables to the console
+console.log("Hello " + visitorName + ". Welcome to JavaScript.");
 
-// STEP 3: User interaction
+const visitorFavoriteAnimal = prompt("What is your favorite animal?");
 
-// Display a pop-up message
+console.log("Your favorite animal seems to be the " + visitorFavoriteAnimal + ".");
 
-// Ask the user for their name
+// let age = 22;
+const age = prompt("What is your age?");
+if (age >= 18) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are under 18.");
+}
 
-// Print the user's answer
+function greetUser(name) { console.log("Hello " + name + "!"); }
 
-// Ask the user for their favorite animal
+greetUser(visitorName);
 
-// Create a sentence using both answers
-
-// console.log("Hello, " + visitorName + "! Your favorite animal is " + visitorFavoriteAnimal + ".");
-
-// ⭐⭐ BONUS Ask the user for their favorite animal.If their favorite animal is "Blue Elephant", print: Great choice! That's my favorite animal too!
-// ⭐⭐ BONUS Otherwise, print: Nice! Your favorite animal is [animal]. Can you figure out how to do this using if / else?
-
-// const visitorFavoriteAnimal = prompt("What is your favorite animal?");
-
+function showMessage() {
+    alert("Here is another prompt for you!");
+}
