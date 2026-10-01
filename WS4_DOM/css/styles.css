@@ -1,0 +1,17 @@
+.highlight {
+    background-color: rgb(9, 255, 0);
+    color: rgb(21, 0, 255);
+}
+
+.animal-heading {
+    color: aqua;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.image-highlight {
+    border: 5px solid rgb(0, 255, 179);
+}
